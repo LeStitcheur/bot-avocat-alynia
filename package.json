@@ -1,0 +1,31 @@
+{
+  "name": "bot-avocat-alynia",
+  "version": "1.0.0",
+  "description": "Bot discord pour Alynia - Avocat",
+  "main": "/src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeStitcheur/bot-avocat-alynia.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "alynia"
+  ],
+  "author": "LeStitcheurFou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeStitcheur/bot-avocat-alynia/issues"
+  },
+  "homepage": "https://github.com/LeStitcheur/bot-avocat-alynia#readme",
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2"
+  }
+}
